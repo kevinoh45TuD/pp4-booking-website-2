@@ -269,6 +269,50 @@ Below will have an outline of the types of testing done to identify any bugs wit
 
 Code Insitute template was used for creation of repository of this site. [Template](https://github.com/Code-Institute-Org/ci-full-template)
 
+### Setting Up Repository
+
+I took these steps to setup my Github repository:
+- Open the link to the Code Institute template mentioned above.
+- At the top right corner click the button 'Use this template'.
+- Click first option 'Create a new repository.
+- Give the repository a relevant name and description.
+- Make sure the repository remains public.
+- At the bottom right click 'Create repository'.
+
+### Clone Repository
+
+Here I will outline the steps to clone a repository on GitHub.
+This allows you to save a local copy.
+
+Steps:
+- Navigate to the GitHub page for the desired repository.
+- Click on 'Code'
+- Copy the link provided under HTTPS.
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type 'git clone ' along with the copied link.
+- Press Enter to create cloned repository.
+
+Steps are based on GitHub documentation related to cloning repositories.
+
+[GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=webui)
+
+### Fork Repository
+
+Here I will outline the steps to fork a repository on GitHub.
+This allows you to have your own repository to make changes to based on an original repositories code/settings.
+Additionally you may submit a pull request to the original repository owner.
+
+Steps:
+- Navigate to the GitHub page for the desired repository. 
+- At the top right, below the search box, click 'Fork'.
+- Leaving all the settings will be fine, but here you may apply a new name or description.
+- Click 'Create fork'.
+
+Steps are based on GitHub documentation related to forking repositories.
+
+[GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+
 ## Credits
 
 ### Code Institute
