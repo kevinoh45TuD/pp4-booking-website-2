@@ -1,0 +1,1 @@
+web: gunicorn booking_website_2.wsgi:application
