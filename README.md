@@ -6,6 +6,9 @@ This project was created using Django. It is meant to emulate a restaurant websi
 
 It has been deployed on Heroku, the repository uses Code Institute's template.
 
+The general premise/concept for the imaginary business, that this website is made for, is that a different movie/meal combination will be
+available each day of the week and you will be able to book a reservation for one of the available tables.
+
 [Link to Site]()
 
 Below I will outline key aspects of the project and its creation.
@@ -16,6 +19,7 @@ Below I will outline key aspects of the project and its creation.
     - Website Visuals
         - Color
         - Font
+        - Website Name
         - Imagery
     - Epics
     - User Stories
@@ -48,6 +52,15 @@ Below will outline various design choices related to how the website visually lo
 #### Color
 
 #### Font
+
+#### Website Name
+
+During development I have been quite uncertain on the specific final name for the website.
+It will either go by 'Classics and Cuisine' or 'Candid Cinema'.
+
+During the development the temporary name of just 'Booking Website'.
+
+The final website name would focus on either the restaurant or cinema aspect of the business.
 
 #### Imagery
 
@@ -212,8 +225,13 @@ User Stories were created based on the above Epics:
 
 A wireframe was created to layout the home screen for the website on computer and mobile screens.
 
-[Wireframe 1]()
-[Wireframe 2]()
+Wireframe 1 shows a general mockup of the home screen. Different movies options are shown, with mobile view on the side.
+
+[Wireframe 1](/docs-media/pp4-wireframe1.png)
+
+Wireframe 2 shows a mockup for what the further details of a showing would look like, with additional screens for forms.
+
+[Wireframe 2](/docs-media/pp4-wireframe2.png)
 
 ## Features
 
