@@ -53,19 +53,167 @@ Below will outline various design choices related to how the website visually lo
 
 ### Epics
 
-Epics were created for this project, these were expanded into user stories.
+8 Epics were created for this project, these were expanded into user stories.
 
 Epics:
+
+1. As a developer, I want to set up development and deploy the
+ project correctly, so that the development of the project runs
+ smoothly without issues.
+2. As a website owner, I want the website to function properly
+ and appear inviting to users.
+3. As a website owner, I want the website to display the
+ available showings in a uniform manner.
+4. As a website owner, I want to be able to edit details of
+ movies or meals, if any changes take place.
+5. As a website user, I want to register an account.
+6. As a website user, I want to login and view details.
+7. As a website user, I want to be able to make a booking and
+ receive confirmation.
+8. As a website owner, I want to create and display upcoming
+ news related to the restaurants upcoming new movies or dishes.
 
 ### User Stories
 
 User Stories were created based on the above Epics:
 
+1. 
+    - A. As a developer, I would like to set up a github
+    repository, so that I will have somewhere to maintain and update
+    the project files.
+
+    - B. As a developer, I would like to set up my IDE along with
+    a virtual environment, so that I will be able to begin coding
+    the project.
+
+    - C. As a developer, I would like to set up the django
+    project along with required packages, so that I will have all
+    the required tools to start developing.
+
+    - D. As a developer, I would like to create the initial home
+    screen view and layout, so that the project will be ready for
+    early deployment.
+
+    - E. As a developer, I would like to deploy the project to
+    Heroku early, so that I can see if there are any issues early
+    on.
+2. 
+    -  A. As a website user, I would like a clear website layout that
+    adjusts based on screen size, so that the website is easy
+    to navigate regardless of which device I am using.
+
+    - B. As a website user, I would like inviting website colours
+    and a readable font, so that the website is enjoyable to
+    use and easy on the eyes.
+
+    - C. As a developer, I would like automated code testing, so
+    that many user input cases can be tested on a larger scale
+    to reduce potential bugs.
+
+    - D. As a developer, I would like manual code testing, so that
+    user navigation can be tested to reduce potential bugs.
+3. 
+    - A. As a website owner, I would like navigation for different
+    showings based on the day of the week selected by users.
+
+    - B. As a website owner, I would like the ability to click into a specific
+    showing, so users can see additional details.
+
+    - C. As a website owner, I would like the ability to mark specific
+    showings as 'unavailable' if they become fully booked.
+4. 
+    -  A. As a developer, I would like to create a custom admin
+    screen/UI, so that the website owner will have easier
+    access to certain functionality on the website.
+
+    - B. As a website owner, I would like to create new
+    listings in the admin screen, so that I can easily add showings
+    to the website listings.
+
+    - C. As a website owner, I would like to view current showings
+    in the admin screen, so that I can easily check
+    the status of current showings.
+
+    - D. As a website owner, I would like to edit a current showing’s
+    details in the admin screen, so that I can easily
+    amend/update specific details when needed.
+
+    - E. As a website owner, I would like to remove/delete 
+    specific showings if needed.
+5. 
+    - A. As a website user, I would like a navigation button to
+    register on the home screen, so that I can quickly navigate
+    to the desired screen.
+
+    - B. As a developer, I would like a prompt to sign in/register
+    when users try accessing some sections that require an
+    account, so that they can’t get to specific screens that
+    require an account.
+
+    - C. As a website owner, I would like a form to register an
+    account, so that all the necessary information is gained
+    from the user.
+
+    - D. As a developer, I would like form validation for user
+    registration, so that I can make sure invalid information
+    isn’t submitted for user details.
+
+    - E. As a website user, I would like confirmation for account
+    registration form completion, so that I am confident my
+    details have been accepted successfully.
+6. 
+    -  A. As a website user, I would like the option to login from
+    the home screen, so that I can quickly navigate to the
+    desired screen.
+
+    - B. As a website user, I would like a prompt to sign in when
+    required, so that I only sign in when needed.
+
+    - C. As a website user, I would like an account details screen,
+    so that I can check what details are currently associated
+    with my account.
+    
+    - D. As a website user, I would like to be able to update my
+    details from the account screen, so that I can amend any
+    details that may be incorrect.
+
+    - E.As a website user, I would like to be able to delete
+    specific details from the account screen, so that I can remove
+    details I don’t want attached to the account.
+7. 
+    -  A. As a website developer, I would like showings to have the function/ability to be clicked,
+    so that website users will be able to access further details and proceed to booking.
+
+    - B. As a website user, I would like a customs screen to show the further details about a 
+    specific showing, so that I can see if I want to book a reservation.
+
+    - C. As a website user, I would like be able to proceed with a booking from the custom screen,
+    so that I can lock in a spot from the specific showing.
+
+8. 
+    - A. As a website owner, I would like a section to display
+    upcoming restaurant news, so that I have a spot on the home
+    screen to inform users of important information such as
+    new movies or meals.
+
+    - B. As a website owner, I would like the ability to create new
+    posts from an admin/staff screen, so that it will be easy
+    for myself or a staff member to add news when needed.
+
+    - C. As a website owner, I would like the ability to edit
+    previous posts, so that I can amend incorrect news quickly
+    without hassle.
+
+    - D. As a website owner, I would like the ability to remove/hide
+    previous posts, so that I can stop users from seeing news
+    that no longer applies.
+
 ### Wireframes
 
 A wireframe was created to layout the home screen for the website on computer and mobile screens.
 
-[Wireframe]()
+[Wireframe 1]()
+[Wireframe 2]()
 
 ## Features
 
