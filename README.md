@@ -9,7 +9,7 @@ It has been deployed on Heroku, the repository uses Code Institute's template.
 The general premise/concept for the imaginary business, that this website is made for, is that a different movie/meal combination will be
 available each day of the week and you will be able to book a reservation for one of the available tables.
 
-[Link to Site]()
+[Link to Site](https://pp4-bookingwebsite-2-626d2704898f.herokuapp.com)
 
 Below I will outline key aspects of the project and its creation.
 
@@ -23,12 +23,12 @@ Below I will outline key aspects of the project and its creation.
         - Imagery
     - Epics
     - User Stories
+    - Wireframes
 2. [Features](#features)
     - Home
     - Account Registration
     - User Profile
     - Admin Screen
-
 3. [Technologies Used](#technologies-used)
     - Python
     - Django
@@ -38,7 +38,10 @@ Below I will outline key aspects of the project and its creation.
 4. [Testing](#testing-1)
     - Manual Testing
 5. [Deployment](#deployment)
-   
+   - Setting Up Repository
+   - Deploying on Heroku
+   - Clone Repository
+   - Fork Repository
 6. [Credits](#credits)
     - Code Institute
     - Other
@@ -250,6 +253,18 @@ Based on the User Stories certain features of the website are created and implem
 ### Python
 
 The following python packages were used:
+
+- asgiref==3.8.1
+- dj-database-url==0.5.0
+- Django==5.1.4
+- django-allauth==65.2.0
+- gunicorn==23.0.0
+- packaging==24.2
+- psycopg2==2.9.10
+- pytz==2024.2
+- setuptools==75.6.0
+- sqlparse==0.5.2
+- tzdata==2024.2
 
 ### Django
 
