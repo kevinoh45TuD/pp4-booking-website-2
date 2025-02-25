@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie View</title>
+</head>
+
+<body>
+    <h1>Movie List</h1>
+    {% for movie in object_list %}
+    <h2>{{movie.movie_title}}</h2>
+    <p>{{movie.movie_desc}}</p>
+    <p>{{movie.meal_name}}</p>
+    <p>Listing added by: {{post.listing_author}}</p>
+    {% endfor %}
+</body>
+
+</html>
