@@ -6,7 +6,8 @@ from .models import Movie
 # Create your views here.
 
 class MovieList(generic.ListView):
-    model = Movie
+    queryset = Movie.objects.all()
+    template_name = "movie_list.html"
 
 #def index(request):
     #""" A view to return the index page """
