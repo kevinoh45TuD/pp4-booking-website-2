@@ -15,7 +15,9 @@
     <p>{{movie.movie_desc}}</p>
     <p>{{movie.meal_name}}</p>
     <!--<img src="{{movie.movie_image}}" alt="{{movie.movie_image_desc}}">-->
-    <img src="/pp4-booking-website-2/static/images/pp4-art-m1.jpg" alt="The Good, The Bad and the Ugly movie poster">
+    {% load static %}
+    <img src="{% static 
+    'images/pp4-art-m1.jpg' %}" alt="The Good, The Bad and the Ugly movie poster">
     <button type="button">Book Now</button>
     {% endfor %}
 </body>
