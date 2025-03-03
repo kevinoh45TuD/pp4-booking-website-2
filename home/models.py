@@ -10,6 +10,7 @@ class Movie(models.Model):
     listing_author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="movie_title"
     )
+    movie_year = models.TextField(max_length=200, null="tempYear")
     movie_desc = models.TextField()
     movie_image = models.TextField(max_length=200, null="tempImg1")
     movie_image_desc = models.TextField(max_length=200, null="tempImgDesc")

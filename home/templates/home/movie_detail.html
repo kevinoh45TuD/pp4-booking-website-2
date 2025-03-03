@@ -7,8 +7,10 @@
             <div class="col-md-6 masthead-text">
                 <!-- Movie title goes in these h1 tags -->
                 <h1 class="movie-title">{{ movie.movie_title }}</h1>
+                <!--Movie year and director goes here-->
+                <h3 class="movie-subtitle">{{ movie.movie_year }}</h3>
                 <!-- Meal name goes below the movie name-->
-                <p class="movie-subtitle">{{ movie.meal_name }}</p>
+                <h2 class="movie-subtitle">{{ movie.meal_name }}</h2>
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <img src="{{image_index}}" class="scale" alt="placeholder">
