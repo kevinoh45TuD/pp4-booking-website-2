@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views import generic
 from .models import Movie
 
@@ -10,9 +10,25 @@ class MovieList(generic.ListView):
     template_name = "home/index.html"
     #paginate_by = 6
 
-#def index(request):
-    #""" A view to return the index page """
-    
+def movie_detail(request, slug):
+    """
+    Display and individual :model:`home.Movie`.
 
+    **Context**
 
-    #return render(request, 'home/index.html')
+    ``movie``
+        An instance of :model:`home.Movie`.
+
+    **Template**
+
+    :template:`blog/movie_detail.html`
+    """
+
+    queryset = Movie.objects.all()
+    movie = get_object_or_404(queryset, slug=slug)
+
+    return render(
+        request,
+        "home/movie_detail.html",
+        {"movie": movie},
+    )
