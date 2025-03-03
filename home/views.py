@@ -8,7 +8,7 @@ from .models import Movie
 class MovieList(generic.ListView):
     queryset = Movie.objects.all()
     template_name = "home/index.html"
-    paginate_by = 6
+    #paginate_by = 6
 
 #def index(request):
     #""" A view to return the index page """
