@@ -26,10 +26,12 @@ def movie_detail(request, slug):
 
     queryset = Movie.objects.all()
     movie = get_object_or_404(queryset, slug=slug)
-    image_index = movie.movie_image + ".jpg"
+    image_index = "/static/images/"+ movie.movie_image +".jpg"
     return render(
         request,
         "home/movie_detail.html",
-        {"movie": movie},
-        {"image_index": image_index},
+        {
+            "movie": movie,
+            "image_index": image_index
+        },
     )
