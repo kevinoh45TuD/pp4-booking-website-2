@@ -230,7 +230,7 @@ A wireframe was created to layout the home screen for the website on computer an
 
 Wireframe 1 shows a general mockup of the home screen. Different movies options are shown, with mobile view on the side.
 
-[Wireframe 1](/docs-media/pp4-wireframe1.png)
+![Wireframe 1](/docs-media/pp4-wireframe1.png)
 
 Wireframe 2 shows a mockup for what the further details of a showing would look like, with additional screens for forms.
 
@@ -244,7 +244,7 @@ Based on the User Stories certain features of the website are created and implem
 
 The home page is where the user will first arrive. Here they will have navigation to all aspects of the website.
 
-[Home Screenshot](/docs-media/PP4-home.png)
+![Home Screenshot](/docs-media/PP4-home.png)
 
 Each movie available will be listed. Users will see important details about the movie. They can click on the title to be brought to further details and the ability to make a booking.
 
@@ -252,7 +252,7 @@ Each movie available will be listed. Users will see important details about the 
 
 The movie details screen provides the added description of the movie and the ability to make a booking.
 
-[Movie Details Screenshot](/docs-media/PP4-movie.png)
+![Movie Details Screenshot](/docs-media/PP4-movie.png)
 [Booking Screenshot](/docs-media/PP4-booking.png)
 
 There is the option to pick which day for the booking. Users bookings will appear on the profile section.
@@ -261,7 +261,7 @@ There is the option to pick which day for the booking. Users bookings will appea
 
 The navigation bar appears at the top left of the screen for users, beside the website title.
 
-[Navbar logged in Screenshot](/docs-media/PP4-navbar-in.png)
+![Navbar logged in Screenshot](/docs-media/PP4-navbar-in.png)
 
 Above is how the navigation bar looks if the user is signed in. They will have the option for 'Profile' and to 'Logout'.
 
@@ -274,7 +274,7 @@ They will now have the options to 'Signup' or 'Login'.
 
 There are various screens based on which option the user is picking.
 
-[User Signup Screenshot](/docs-media/PP4-signup.png)
+![User Signup Screenshot](/docs-media/PP4-signup.png)
 
 Here the user is creating an account and must fill in the required details.
 
@@ -290,7 +290,7 @@ If the user is signed in they will have the ability to sign out.
 
 The User Profile screen allows users to see their details and bookings.
 
-[Profile Screenshot](/docs-media/PP4-profile.png)
+![Profile Screenshot](/docs-media/PP4-profile.png)
 
 The user's bookings will be listed in order of creation. It will show which day they are booked for and the associated movie.
 You can see and edit button, this unfortunately is unfunctional but the intended purpose was to allow users to update/delete their bookings.
