@@ -24,7 +24,7 @@
     {% for booking in bookings %}
     <h2>Movie: {{booking.which_movie.movie_title}}</h2>
     <p>{{booking.which_movie.meal_name}}</p>
-    <p>Booked for: {{booking.which_day}}</p>
+    <p>Booked for: {{booking.get_which_day_display}}</p>
     <p>Booking created at: {{booking.created_on}}</p>
     <hr/>
     {% endfor %}
