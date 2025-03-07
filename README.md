@@ -355,21 +355,36 @@ The following python packages were changed to:
 
 - Django was used as the main framework for this project.
 
+The django framework comes with most of what is needed to create this website. Certain additional packages like allauth made aspects like account a lot easier.
+
 ### Heroku
 
 - Heroku was used to deploy this website online. [Heroku](https://www.heroku.com)
+
+Steps take to deploy on Heroku are outlined below.
 
 ### HTML
 
 - Html was used as the base language for the site templates.
 
+A 'base.html' was created which all other templates would extend from.
+
+'index.html' was created as the main home page.
+
+Additional html files were created for more specific needs such as the profile page being done in 'diary.html'
+
 ### CSS
 
 - CSS was used to style the pages for this website.
 
+A 'style.css' file was created for some simple/general styling to different aspects of the website.
+
 ### JavaScript
 
 - JS was used for any functionality for the website.
+
+A 'booking.js' file was created to provide functionality to the 'Edit' button on the user's bookings.
+It did not work as intended unfortunately.
 
 ### Packages
 
@@ -382,6 +397,16 @@ The following python packages were changed to:
 Below will have an outline of the types of testing done to identify any bugs within the website.
 
 ### Manual Testing
+
+The website was manually tested trying each option for clicking on different links.
+Various types of data were manually entered to test forms.
+
+### Issues encountered
+
+One of the main issues encountered relates to users being able to update/delete their bookings.
+The source of this issue is due to the bookings being made in the home app, while the bookings being displayed in the diary app and attempts to implement updating being done here.
+
+If I was to solve this issue with future websites the user would be directed to their profile first (diary app) and then make the bookings here. This would probably create less confusion with trying to do all 'POST' requests from one area rather than two.
 
 ## Deployment
 
