@@ -346,6 +346,38 @@ Steps are based on GitHub documentation related to forking repositories.
 
 [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
+### Deploying to Heroku
+
+Here I will outline the steps I took to deploy the project on Heroku. 
+It is necessary to have the project hosted somewhere so the website can be accessed by users/testers without needing to download the project and hosting locally.
+I deployed to Heroku early on in development so that testing how the website would look outside of local development environment.
+
+Steps:
+- Log into Heroku website, go to dashboard
+- Click on 'Create new app'
+- Give the app a unique name (this is required), select whatever is the closest region
+- Click on 'create app'
+- Click on the 'settings' tab
+- Add 'DISABLE_COLLECTSTATIC' key with the value of '1' (This is required for deploying to Heroku early in development but gets removed at a later point)
+- In a terminal on your IDE use the command 'pip(3) install gunicorn' (Version 23.0.0 is being used for this project which can be found in the requirments.txt file)
+- In the terminal use the command 'pip(3) freeze > requirements.txt', this will add all the requirements needed based on packages installed on your current virtual environment
+- Create a file in the main directory named 'Procfile' (notice no file extention). This file is required for Heroku deployment
+- Inside of the Procfile put this one line 'web: gunicorn booking_website_2.wsgi:application'
+- Make sure to add '.herokuapp.com' to the 'ALLLOW_HOSTS' list
+- Make sure 'DEBUG' is set to 'False' outside local development to avoid exposing any important information
+- At this stage commit and push to your Github repository
+- Click on the 'deploy' tab (it should be along the same row as settings from a previous step)
+- Scroll down till you find a mention of Github
+- Sign into your Github if you aren't already
+- Type/Paste in the name of your Github repository, which the option pops up, click the correct repository
+- Manual deploy the main branch to Heroku
+- There will be an option to enable automatic deployments, this will have Heroku redeploy your app each time you push a new commit to your main branch
+- At this stage you can click 'Open app' to see if it deployed correctly
+
+These are the general steps I took when deploying my project to Heroku.
+Some steps may vary based on user and time of recreating the steps.
+As mentioned in one of the steps, as I deployed to Heroku early in development the Heroku app was set not to collect static files. This would need to be changed once static files are setup correctly in the project files.
+
 ## Credits
 
 ### Code Institute
