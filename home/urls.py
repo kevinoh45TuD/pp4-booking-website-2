@@ -5,4 +5,5 @@ from . import views
 urlpatterns = [
     path('', views.MovieList.as_view(), name='home'),
     path('<slug:slug>/', views.movie_detail, name="movie_detail"),
+    path('diary/', include('diary.urls')),
 ]

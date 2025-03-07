@@ -27,7 +27,18 @@
     <p>Booked for: {{booking.get_which_day_display}}</p>
     <p>Booking created at: {{booking.created_on}}</p>
     <hr/>
+    {% if user.is_authenticated and booking.which_user == user %}
+    <script>
+      const slug = "{{booking.which_movie.slug}}";
+    </script>
+    <button class="btn btn-edit"
+    booking_id="{{ booking.id }}" movie_id="{{ booking.which_movie }}">Edit</button>
+    {% endif %}
     {% endfor %}
   </div>
 </div>
 {% endblock content %}
+
+{% block extras %}
+<script src="{% static 'js/bookings.js' %}"></script>
+{% endblock %}
