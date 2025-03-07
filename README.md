@@ -242,11 +242,63 @@ Based on the User Stories certain features of the website are created and implem
 
 ### Home
 
+The home page is where the user will first arrive. Here they will have navigation to all aspects of the website.
+
+[Home Screenshot](/docs-media/PP4-home.png)
+
+Each movie available will be listed. Users will see important details about the movie. They can click on the title to be brought to further details and the ability to make a booking.
+
+### Movie Details
+
+The movie details screen provides the added description of the movie and the ability to make a booking.
+
+[Movie Details Screenshot](/docs-media/PP4-movie.png)
+[Booking Screenshot](/docs-media/PP4-booking.png)
+
+There is the option to pick which day for the booking. Users bookings will appear on the profile section.
+
+### Navbar
+
+The navigation bar appears at the top left of the screen for users, beside the website title.
+
+[Navbar logged in Screenshot](/docs-media/PP4-navbar-in.png)
+
+Above is how the navigation bar looks if the user is signed in. They will have the option for 'Profile' and to 'Logout'.
+
+[Navbar logged out Screenshot](/docs-media/PP4-navbar-out.png)
+
+Above is how the navigation bar looks if the user is sign out. As you can see the previous options are gone.
+They will now have the options to 'Signup' or 'Login'.
+
 ### Account Registration
+
+There are various screens based on which option the user is picking.
+
+[User Signup Screenshot](/docs-media/PP4-signup.png)
+
+Here the user is creating an account and must fill in the required details.
+
+[User Signin Screenshot](/docs-media/PP4-signin.png)
+
+After signing up they will have the ability to sign in.
+
+[User Signout Screenshot](/docs-media/PP4-signout.png)
+
+If the user is signed in they will have the ability to sign out.
 
 ### User Profile
 
+The User Profile screen allows users to see their details and bookings.
+
+[Profile Screenshot](/docs-media/PP4-profile.png)
+
+The user's bookings will be listed in order of creation. It will show which day they are booked for and the associated movie.
+You can see and edit button, this unfortunately is unfunctional but the intended purpose was to allow users to update/delete their bookings.
+
 ### Admin Screen
+
+The admin screen is unfortunately non-existent. The intention would be an additional screen for authorised users such as owner or staff.
+Here they would see all bookings and add/change/remove movie listings when needed.
 
 ## Technologies Used
 
