@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-8">
+      <!-- Title goes between these h2 tags -->
+       {% if user.is_authenticated %}
+      <h2>Username: {{ user }}</h2>
+      {% else %}
+      <p class="text-end m-3">Not logged in</p>
+      {% endif %}
+      <!-- Content goes directly underneath this -->
+      <p>{{ fname }} {{lname}}</p>
+      
+      <hr/>
+      <p>Email address: {{ user.email }}</p>
+      <hr/>
+    </div>
+  </div>
+  <div class="row">
+    <h2>Bookings</h2>
+    <hr/>
+    {% for booking in bookings %}
+    <h2>Movie: {{booking.which_movie.movie_title}}</h2>
+    <p>{{booking.which_movie.meal_name}}</p>
+    <p>Booked for: {{booking.which_day}}</p>
+    <p>Booking created at: {{booking.created_on}}</p>
+    <hr/>
+    {% endfor %}
+  </div>
+</div>
+{% endblock content %}
