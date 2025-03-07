@@ -252,7 +252,7 @@ Based on the User Stories certain features of the website are created and implem
 
 ### Python
 
-The following python packages were used:
+The following python packages were previously used:
 
 - asgiref==3.8.1
 - dj-database-url==0.5.0
@@ -265,6 +265,39 @@ The following python packages were used:
 - setuptools==75.6.0
 - sqlparse==0.5.2
 - tzdata==2024.2
+
+The following python packages were changed to:
+
+- asgiref==3.8.1
+- bleach==6.2.0
+- certifi==2025.1.31
+- cffi==1.17.1
+- charset-normalizer==3.4.1
+- crispy-bootstrap5==0.7
+- cryptography==44.0.2
+- defusedxml==0.7.1
+- dj-database-url==0.5.0
+- Django==4.2.19
+- django-allauth==0.57.2
+- django-crispy-forms==2.3
+- django-summernote==0.8.20.0
+- gunicorn==23.0.0
+- idna==3.10
+- oauthlib==3.2.2
+- packaging==24.2
+- psycopg2==2.9.10
+- pycparser==2.22
+- PyJWT==2.10.1
+- python3-openid==3.2.0
+- pytz==2024.2
+- requests==2.32.3
+- requests-oauthlib==2.0.0
+- sqlparse==0.5.2
+- typing_extensions==4.12.2
+- tzdata==2024.2
+- urllib3==2.3.0
+- webencodings==0.5.1
+- whitenoise==6.5.0
 
 ### Django
 
