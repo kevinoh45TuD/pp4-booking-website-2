@@ -463,6 +463,30 @@ These are the general steps I took when deploying my project to Heroku.
 Some steps may vary based on user and time of recreating the steps.
 As mentioned in one of the steps, as I deployed to Heroku early in development the Heroku app was set not to collect static files. This would need to be changed once static files are setup correctly in the project files.
 
+## Assets/Media References
+
+The following were used for the movie listings on this website:
+
+"The Good, the Bad and the Ugly":
+- image: [Link](https://georgetownvoice.com/2016/10/25/a-case-for-the-classics-the-good-the-bad-and-the-ugly/)
+- text: [Link](https://www.imdb.com/title/tt0060196/)
+
+"A Nightmare on Elm Street":
+- image: [Link](https://image.tmdb.org/t/p/original/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg)
+- text: [Link](https://www.imdb.com/title/tt0087800/)
+
+"Mamma Mia!":
+- image: [Link](https://www.imdb.com/title/tt0795421/)
+- text: [Link](https://www.imdb.com/title/tt0795421/)
+
+"Titanic":
+- image: [Link](https://www.imdb.com/title/tt0120338/)
+- text: [Link](https://www.imdb.com/title/tt0120338/)
+
+"The Godfather":
+- image: [Link](https://www.microsoft.com/en-ie/p/the-godfather/8d6kgwzl5svs)
+- text: [Link](https://www.imdb.com/title/tt0068646/)
+
 ## Credits
 
 ### Code Institute
